@@ -13,4 +13,17 @@ body {
 
     height: 100vh;
     font-family: 'Poppins', sans-serif;
+    background: #040d12;
+    color: aliceblue;
+}
+
+.social__links {
+    padding: 30px 60px;
+    background: #131313;
+    border-radius: 10px;
+
+    display: flex;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
 }
