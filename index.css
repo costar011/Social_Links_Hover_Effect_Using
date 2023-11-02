@@ -27,3 +27,26 @@ body {
     position: relative;
     overflow: hidden;
 }
+
+.social__links::before, .social__links::after {
+    content: " ";
+    position: absolute;
+
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to right, #2a0845, #6441a5);
+    filter: blur(30px);
+}
+
+.social__links::before {
+    left: -30px;
+}
+
+.social__links::after {
+    right: -10px;
+}
+
+.social__links h4 {
+    font-size: 32px;
+    margin-right: 50px;
+}
