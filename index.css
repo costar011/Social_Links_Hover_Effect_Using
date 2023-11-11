@@ -50,3 +50,23 @@ body {
     font-size: 32px;
     margin-right: 50px;
 }
+
+.social__links .links {
+    display: flex;
+    flex-direction: column;
+}
+
+.social__links .links a {
+    background: #1a1a1a;
+    border-radius: 10px;
+    padding: 8px 10px;
+
+    width: 145px;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+
+    margin: 5px;
+    border: 2px solid rgb(95, 95, 95);
+    transition: transform 0.4s, background 0.4s, opacity 0.4s;
+}
