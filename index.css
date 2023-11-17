@@ -70,3 +70,12 @@ body {
     border: 2px solid rgb(95, 95, 95);
     transition: transform 0.4s, background 0.4s, opacity 0.4s;
 }
+
+.social__links .links a:nth-child(1) {
+    transform: rotate(-10deg) translateY(30px);
+}
+
+.social__links .links a:nth-child(2) {
+    transform:  rotate(0) translateY(0);
+    z-index: 1;
+}
