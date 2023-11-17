@@ -79,3 +79,22 @@ body {
     transform:  rotate(0) translateY(0);
     z-index: 1;
 }
+
+.social__links .links a:nth-child(3) {
+    transform:  rotate(10deg) translateY(-30px);
+}
+
+.social__links a i {
+    width: 22px;
+}
+
+.social__links:hover .links a {
+    border: 2px solid #6441a5;
+    transform: rotate(0) translateY(0);
+    background: linear-gradient(to right, #2a0845, #6441a5);
+    opacity: 0.4;
+}
+
+.social__links .links a:hover {
+    opacity: 1;
+}
